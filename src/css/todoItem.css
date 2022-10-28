@@ -1,0 +1,34 @@
+.task-item{
+    /* border: 1px solid white; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.task-item div:first-child{
+    color: white;
+    width: 50%;
+    height: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+}
+.task-item div:last-child{
+    color: white;
+    width: 10%;
+    height: 100%;
+    /* border: 1px solid red; */
+}
+.task-item div:last-child button{
+    background-color: rgba(0, 5, 37, 0.74);
+    color: red;
+    width: 100%;
+    height: 100%;
+    border: 2px solid red;
+    border-radius: 100rem;
+}
+.task-item div:last-child button:hover{
+    border: 2px solid white;
+}
